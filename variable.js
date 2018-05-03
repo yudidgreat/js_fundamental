@@ -39,3 +39,5 @@ const info = {
 //console.log (info.address +'' +info.city)
 //2018
 //1980
+const name ="yudidwijayanto"
+const age = 33
