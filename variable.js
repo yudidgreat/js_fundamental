@@ -27,7 +27,7 @@ const cars = ["honda", "toyota", "mitsubishi"]; // array
 const angkas = [1, 2, 3, 4]; // array of number
 const info = {
   address: "blablaba",
-  city: "blablaba,"
+  city: "jak,"
 }; // object
 // untuk data tipe objek bisa terdiri dari beberapa properties yang dimana 1 properties tersusun dari Key - value pairs
 
