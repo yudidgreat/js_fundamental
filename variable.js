@@ -38,3 +38,4 @@ const info = {
 //console.log (info.elementyang akna di tampilkan)
 //console.log (info.address +'' +info.city)
 //2018
+//1980
