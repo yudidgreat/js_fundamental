@@ -36,9 +36,13 @@ const moviesData = [
 moviesData.map((data, idx) => {
   const title_movie = data.title;
   const rating_movie = data.rating;
-  let stars = "";
-  for (let a = 0; a < rating_movie; a++) {
-    stars += " * ";
+  let stars = " ";
+  for (let a = 0; a < 5; a++) {
+    if (a < rating_movie) {
+      stars += " * ";
+    } else {
+      stars += " O ";
+    }
   }
-  console.log(`${title_movie}  ${stars}`);
+  console.log(`${title_movie} ${stars}`);
 });
